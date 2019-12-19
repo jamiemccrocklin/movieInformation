@@ -4,10 +4,20 @@
 
 @media(min-width: 960px) { 
     #movies .col-md-3 .well {
-        height: 390 px;
+        height: 490 px;
     } 
 
     #movies .col-md-3 img {
-        height: 240px;
+        height: 330px;
+    }
+}
+
+#movies .col-md-3 a {
+    margin-bottom: 50px;
+}
+
+@media(min-width: 1024px) {
+    #movies .col-md-3 img {
+
     }
 }
